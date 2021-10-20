@@ -1,0 +1,46 @@
+
+.landing-page {
+  height: 100vh;
+  width: 100%;
+  /* border: 5px solid black; */
+  background-image: url('./images/landingpic.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.about-page {
+  height: 500px;
+  width: 100%;
+  /* border: 5px solid black; */
+  background-color: coral;
+}
+
+.portfolio-title {
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  /* border: 3px solid black; */
+  padding-top: 20px;
+}
+
+hr {
+  margin: 2rem 0;
+  background-color: coral;
+  opacity: 3;
+}
+
+.btn-default {
+  background-color: coral;
+  color: white;
+  text-shadow: black 1px 0 10px;
+}
+ 
+.person-name {
+  text-shadow: black 1px 0 10px;
+}
+
+.navbar {
+  background-color: coral;
+}
