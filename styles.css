@@ -11,9 +11,7 @@
 }
 
 .about-page {
-  height: 500px;
   width: 100%;
-  /* border: 5px solid black; */
   background-color: coral;
 }
 
@@ -37,10 +35,32 @@ hr {
   text-shadow: black 1px 0 10px;
 }
  
-.person-name {
+.title-text {
   text-shadow: black 1px 0 10px;
 }
 
 .navbar {
   background-color: coral;
+}
+
+.test {
+    /* border: black 3px solid; */
+    margin: 3px;
+}
+
+.video-test {
+    /* border: black 3px solid;  */
+    padding: 100px 0;  
+}
+
+iframe {
+    /* border:2px solid red;  */
+    width: 100%; 
+    height: 315px;
+}
+
+.divider {
+    background-color: coral;
+    width: 100%;
+    height: 10px;
 }
