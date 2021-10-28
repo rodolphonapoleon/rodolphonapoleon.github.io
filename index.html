@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="author" content="Rodolpho Napoleon">
     <meta name="generator" content="Hugo 0.88.1">
     <title>Rodolpho Portfolio</title>
     <link rel="icon" href="./images/RN.png">
@@ -17,18 +17,18 @@
   </head>
 
   <body id="page-top">
-    <div class="container-fluid" style="margin: 0; padding: 0;">
-          
+    <div class="container-fluid mx-0 px-0">
+           
       <!-- NAVIGATION -->
             <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
               <div class="container px-4 px-lg-5">
                 <a class="navbar-brand" href="#page-top"><img src="./images/RN.png" alt="logo"></a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon navbar-toggler-icon-custom"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
-                  <ul class="navbar-nav ms-auto my-2 my-lg-0 h3">
-                      <li class="nav-item"><a class="nav-link" aria-current="page" href="#about">about()</a></li>
-                      <li class="nav-item"><a class="nav-link" href="#portfolio">portfolio()</a></li>
-                      <li class="nav-item"><a class="nav-link" href="#contact">contact()</a></li>
+                  <ul class="navbar-nav ms-auto my-2 my-lg-0 fw-bold fs-5">
+                      <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#portfolio">PORTFOLIO</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
                   </ul>
                 </div>
               </div>
@@ -38,15 +38,19 @@
       <!-- LANDING PAGE / MASTERHEAD     -->
        
            <!-- row gx-4 gx-lg-5 to verify why those class are added -->
+         
+           <video autoplay muted loop id="myVideo">
+            <source src="https://res.cloudinary.com/napo05/video/upload/v1635355981/SocialMediaLogo/mixkit-computer-code-in-the-screen-9757-medium_aeaiwx.mp4" type="video/mp4">
+          </video>
+         
            <header class="landing-page"> 
                <div class="row h-100 justify-content-center align-items-center text-center">
-                <div class="col-lg-8 align-self-end">
-                    <h1 class="text-white display-3 font-weight-bold title-text">rodolphoNapoleon()</h1>
-                    <hr/>
+                <div class="col-lg-8 align-self-end mb-4">
+                    <h1 class="text-white display-4 title-text">I'M <span>RODOLPHO NAPOLEON</span></h1>    
                 </div>
                 <div class="col-lg-8 align-self-baseline">
-                    <p style="font-size: 1.5rem;" class="text-white mb-5">Full Stack Web Developer</p>
-                    <a class="btn btn-default rounded-pill btn-xl" href="#about">Learn more about me</a>
+                    <p class="text-white mb-5 fs-3">Full Stack Web Developer</p>
+                    <a class="btn btn-outline-primary btn-xl" href="#about">LEARN MORE ABOUT ME</a>
                 </div>
             </div>
            </header>
@@ -58,15 +62,15 @@
       </div>
                                  
         <!-- ABOUT PAGE TITLE -->
-     <section class="portfolio-title" id="about">
+     <section class="title-name" id="about">
       <div class="row justify-content-center text-center">
         <div class="col-lg-8">
-          <h1 class="text-default title-text display-5">about()</h1>
+          <h1 class="text-default title-text display-6">ABOUT</h1>
           <hr/>
         </div>  
       </div>
      </section>
-                     <!--  "https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1"  -->
+                     
       <!-- ABOUT PAGE -->
      <section class="about-page">
           <div class="row mt-5 text-center">
@@ -77,11 +81,22 @@
                 </div>
               </div>
               <div class="col-md-6 p-5">
-                <h1 class="text-white title-text display-1 fs-4">myStory()</h1>
+                <h1 class="text-white title-text display-1 fs-4">Get to know me</h1>
                 <hr/>
-                <p class="text-white text-justify fst-normal fs-5">My name is Rodolpho NAPOLEON, I have always had a passion for technology growing up as a kid. I made my first step toward computers at the age of 15, and I became fond of them ever since. Currently I freelance here and there or hop on projects any chance I get. I go to hackathons a lot since this environment is where I learn the most. I have worked on several projects either alone or with a teammate. Check out my github or devpost for samples of my work and ongoing projects</p>
+                <p class="text-white text-justify fst-normal fs-5">My name is Rodolpho NAPOLEON, I have a passion for technology, specially coding. I love learning new skills and programming languages. I already have under my belt JavaScript, HTML, CSS, Bootstrap, Git/GitHub. I’m learning actually the MERN stack at MIT xPro. I’m enthusiastically grabbing onto any other programming languages, frameworks, or principles. Check out my github for samples of my work and ongoing projects.</p>
                 <hr/>
-                <a class="btn btn-default btn-l rounded-pill" href="./images/napopo.jpg" download="RodolphoResume">Download my resume</a>
+                <div class="row justify-content-center text-center">
+                  <div class="col-2">
+                     <a href="https://github.com/" class="social-icon"><i class="bi bi-github fs-3"></i></a>
+                  </div>
+                  <div class="col-2">
+                    <a href="https://www.linkedin.com/in/rodolpho-richard-napoleon-30337113/" class="social-icon"><i class="bi bi-linkedin fs-3"></i></a>
+                  </div>
+                  <div class="col-2">
+                    <a href="https://twitter.com/papinapo" class="social-icon"><i class="bi bi-twitter fs-3"></i></a>
+                  </div>
+                </div>
+                <!-- <a class="btn btn-outline-primary btn-l" href="./images/napopo.jpg" download="RodolphoResume">DOWNLOAD MY RESUME</a> -->
               </div>
           </div>
      </section>
@@ -94,10 +109,10 @@
      
 
       <!-- PORTFOLIO TITLE -->
-     <section class="portfolio-title" id="portfolio">
+     <section class="title-name" id="portfolio">
       <div class="row justify-content-center text-center">
         <div class="col-lg-8">
-          <h1 class="text-default title-text display-5">portfolio()</h1>
+          <h1 class="text-default title-text display-6">PORTFOLIO</h1>
           <hr/>
         </div>  
       </div>
@@ -110,9 +125,9 @@
             <div class="card border-4 shadow-lg " style="width: 18rem; margin: 5% auto;">
               <img src="./images/pacman_pic.png" class="card-img-top" alt="pacman project">
               <div class="card-body">
-               <h5 class="card-title">pacMan()</h5>
-               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-               <a href="https://rodolphonapoleon.github.io/pacman-project/" class="btn btn-default rounded-pill">openProject</a>
+               <h5 class="card-title">Pacman</h5>
+               <p class="card-text">Create pacmen to move in a certain area, bounce off any wall they hit and change direction.</p>
+               <a href="https://rodolphonapoleon.github.io/pacman-project/" class="btn btn-outline-success fw-bold">OPEN</a>
               </div>
             </div>
           </div>
@@ -122,9 +137,9 @@
             <div class="card border-4 shadow-lg" style="width: 18rem; margin: 5% auto;">
               <img src="./images/eye-pic.png" class="card-img-top" alt="eye movement project">
               <div class="card-body">
-                <h5 class="card-title">eyeMovement()</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="https://rodolphonapoleon.github.io/eye-movement-project/" class="btn btn-default rounded-pill">openProject</a>
+                <h5 class="card-title">Eye Movement</h5>
+                <p class="card-text">Movement of 2 eyes at the same time when the cursor move is detected.</p>
+                <a href="https://rodolphonapoleon.github.io/eye-movement-project/" class="btn btn-outline-success fw-bold">OPEN</a>
               </div>
             </div>
           </div>
@@ -133,9 +148,9 @@
             <div class="card border-4 shadow-lg" style="width: 18rem; margin: 5% auto;">
               <img src="./images/trackerpic.png" class="card-img-top" alt="bus tracker project">
               <div class="card-body">
-                <h5 class="card-title">busTracker()</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href=" https://rodolphonapoleon.github.io/bus-tracker-project/" class="btn btn-default rounded-pill">openProject</a>
+                <h5 class="card-title">Bus Tracker</h5>
+                <p class="card-text">An application tracking all the MBTA buses around MIT, and give their positions in real time.</p>
+                <a href=" https://rodolphonapoleon.github.io/bus-tracker-project/" class="btn btn-outline-success fw-bold">OPEN</a>
               </div>
             </div>
           </div>      
@@ -147,10 +162,10 @@
        </div>
 
        <!-- CONTACT PAGE TITLE -->
-     <section class="contact-title" id="contact">
+     <section class="title-name" id="contact">
       <div class="row justify-content-center text-center">
         <div class="col-lg-8">
-          <h1 class="text-default title-text display-5">contact()</h1>
+          <h1 class="text-default title-text display-6">CONTACT</h1>
           <hr/>
         </div>  
       </div>
@@ -183,17 +198,23 @@
 
         </div>
       </div> 
+
+       <!-- DIVIDER -->
+       <div class="row">
+        <div class="col divider">
+        </div>
+      </div>
       
       <section class="header">
         <div class="row justify-content-center text-center bg-light pt-4">
           <div class="col-1">
-             <a href="https://github.com/"><i class="bi bi-github fs-3"></i></a>
+             <a href="https://github.com/" class="icon-footer"><i class="bi bi-github fs-3"></i></a>
           </div>
           <div class="col-1">
-            <a href="https://www.linkedin.com/in/rodolpho-richard-napoleon-30337113/"><i class="bi bi-linkedin fs-3"></i></a>
+            <a href="https://www.linkedin.com/in/rodolpho-richard-napoleon-30337113/" class="icon-footer"><i class="bi bi-linkedin fs-3"></i></a>
           </div>
           <div class="col-1">
-            <a href="https://twitter.com/papinapo"><i class="bi bi-twitter fs-3"></i></a>
+            <a href="https://twitter.com/papinapo" class="icon-footer"><i class="bi bi-twitter fs-3"></i></a>
           </div>
         </div>
         <div class="row text-center bg-light">
