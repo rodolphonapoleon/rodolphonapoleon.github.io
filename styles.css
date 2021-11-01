@@ -10,7 +10,7 @@ body {
   overflow-x: hidden;
 }
 
-#myVideo {
+.background-video {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -22,23 +22,36 @@ body {
   position: relative;
   height: 100vh;
   width: 100%;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.85) 100%);
-  /* background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;  */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.80) 0%, rgba(0, 0, 0, 0.80) 100%);
 }
 
 span {
-  color: #067ead;
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #fe8513,
+    0 0 82px #fe8513,
+    0 0 92px #fe8513,
+    0 0 102px #fe8513,
+    0 0 151px #fe8513;  
 }
 
-.social-icon {
+.icon-about {
   color: white;
 }
 
-.social-icon:hover {
+.icon-about:hover {
   color: #067ead;
+}
+
+.icon-contact {
+  color: #067ead;
+}
+
+.icon-contact:hover {
+  color: #054057;
 }
 
 .icon-footer {
@@ -53,7 +66,6 @@ span {
   width: 100%;
   background-color: #224b5b;
 }
-
 
 .title-name {
   height: 100px;
@@ -88,9 +100,20 @@ hr:not([size]) {
   border-color: #067ead;
 }
 
+.btn-default {
+  color: white;
+  background-color: #067ead;
+  border-color: #067ead;
+}
+
+.btn-default:hover {
+  color: #fff;
+  background-color: #067ead;
+  border-color: #067ead;
+}
  
-.title-text {
-  text-shadow: black 1px 0 10px;
+.text-shad {
+  text-shadow: black 0 0 10px;
 }
 
 .divider {
@@ -122,7 +145,7 @@ hr:not([size]) {
 
 .navbar-dark .navbar-nav .show > .nav-link,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #224b5b;
+  color: #224b5b
 }
 
 hr {
@@ -133,7 +156,12 @@ hr {
   opacity: 1;
 }
 
-#mainNav {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+.shad {
+  box-shadow: 0 0 .1rem #fff,
+  0 0 .1rem #fff,
+  0 0 1rem #fe8513,
+  0 0 0.4rem #fe8513,
+  0 0 1.4rem #fe8513,
+  inset 0 0 0.6rem #fe8513;
 }
 
